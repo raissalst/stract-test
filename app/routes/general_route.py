@@ -1,5 +1,9 @@
 from flask import Blueprint
-from app.controllers.general_controller import get_all_platforms, get_all_platforms_platform_collapsed
+
+from app.controllers.general_controller import (
+    get_all_platforms,
+    get_all_platforms_platform_collapsed,
+)
 
 bp_general = Blueprint("geral", __name__, url_prefix="/geral")
 

@@ -1,5 +1,9 @@
 from flask import Blueprint
-from app.controllers.platform_controller import get_a_platform, get_a_platform_user_collapsed
+
+from app.controllers.platform_controller import (
+    get_a_platform,
+    get_a_platform_user_collapsed,
+)
 
 bp_platform = Blueprint("plataforma", __name__)
 
