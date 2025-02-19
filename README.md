@@ -35,10 +35,14 @@ Este teste implementa um servidor local utilizando **Python + Flask** para consu
 ## 🚀 Rodando a aplicação
 
 Após instalar as dependências, crie um arquivo .env com base no .env.example com os valores:
-Flask env: development
+
+```bash
+Flask environment: development
 Token: ProcessoSeletivoStract2025
 URL: https://sidebar.stract.to
+```
 
+Obs.: os valores estão sendo fornecidos por questão de ser um teste técnico, mas não é a prática recomendada por questões de segurança
 Execute o seguinte comando para iniciar o servidor em modo desenvolvimento com debug ativo:
 
 ```bash
