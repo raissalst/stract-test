@@ -7,7 +7,7 @@ Este teste implementa um servidor local utilizando **Python + Flask** para consu
 ## 📌 Requisitos
 
 - Python 3.8+
-- Package manager <a name="pip" href="https://pip.pypa.io/en/stable/" target="_blank">PIP</a>;
+- Package manager <a name="pip" href="https://pip.pypa.io/en/stable/" target="_blank">PIP</a>
 - Flask
 
 ## 📥 Instalação
