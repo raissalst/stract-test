@@ -7,6 +7,7 @@ from app.external_api.stract_api_service import fetch_platforms
 from app.services.common_service import collapse_data, remove_data_from_column
 from app.services.general_service import get_all_platforms_data
 from app.utils.csv_utils import generate_csv
+from app.utils.list_utils import replace_element_with_empty_string
 
 
 def get_all_platforms():
@@ -49,11 +50,13 @@ def get_all_platforms_platform_collapsed():
             remove_data_from_column(collapsed_data_list, column_title_list, 2)
         )
 
+        collapsed_data_without_token_and_erased_account_list = replace_element_with_empty_string(collapsed_data_without_token_list, 1)
+
         sort_by_list = ["Platform", "Account"]
 
         return generate_csv(
             column_title_without_token_list,
-            collapsed_data_without_token_list,
+            collapsed_data_without_token_and_erased_account_list,
             sort_by_list,
         )
 
