@@ -34,13 +34,18 @@ Este teste implementa um servidor local utilizando **Python + Flask** para consu
 
 ## 🚀 Rodando a aplicação
 
-Após instalar as dependências, execute o seguinte comando para iniciar o servidor em modo desenvolvimento:
+Após instalar as dependências, crie um arquivo .env com base no .env.example com os valores:
+Flask env: development
+Token: ProcessoSeletivoStract2025
+URL: https://sidebar.stract.to
+
+Execute o seguinte comando para iniciar o servidor em modo desenvolvimento com debug ativo:
 
 ```bash
 flask --debug run
 ```
 
-Para rodar a aplicação sem o modo debug executar:
+Para rodar a aplicação sem o debug ativo executar:
 
 ```bash
 flask run
