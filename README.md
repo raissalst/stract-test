@@ -42,7 +42,8 @@ Token: ProcessoSeletivoStract2025
 URL: https://sidebar.stract.to
 ```
 
-Obs.: os valores estão sendo fornecidos por questão de ser um teste técnico, mas não é a prática recomendada por questões de segurança
+**_Obs.: os valores estão sendo fornecidos por questão de ser um teste técnico, mas não é a prática recomendada por questões de segurança_**
+
 Execute o seguinte comando para iniciar o servidor em modo desenvolvimento com debug ativo:
 
 ```bash
